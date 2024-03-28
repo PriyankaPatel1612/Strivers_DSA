@@ -1,0 +1,28 @@
+Recursion-
+    -->when a function calls itself.
+    -->until a specified condition is fulfilled.
+
+Base Condition-
+    -->It is the condition that is written in a 
+    recursive function in order for it to get 
+    completed and not to run infinitely.
+    -->he function terminates and returns back 
+    to its parent function simultaneously.
+
+Stack Overflow / Stack Space-
+    -->when there is no base condition given for 
+    a particular recursive function, it gets 
+    called indefinitely which results in a Stack 
+    Overflow i.e, exceeding the memory limit of 
+    the recursion stack and hence the program 
+    terminates giving a Segmentation Fault 
+    error. 
+
+Recursion Tree-
+    -->A recursive tree is basically a representative form of recursion which depicts how functions are called and returned as a series of events happening consecutively.
+    -->It is a pictorial description of the process of recursion.
+
+Link for ref-
+https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/
+    
+    
