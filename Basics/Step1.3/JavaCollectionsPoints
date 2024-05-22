@@ -1,0 +1,47 @@
+#Collection
+
+Any group of individual objects that are represented as a single unit is known as a Java Collection of Objects.
+
+A separate framework named the “Collection Framework” has been defined in JDK 1.2 which holds all the Java Collection Classes and Interface in it. 
+
+In Java, the Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+
+#Methods of Collections Interface
+
+add(Object) -- add an object to collection
+
+addAll(Collection c) -- adds all the elements in given collection to this collection
+
+clear() -- removes  all elements from Collections.
+
+containsAll(Object o) -- returns true if collection contains the specified elements.
+
+containsAll(Collection c) -- returns true if collection contains all element in given collection.
+
+equals(Object o) --   compares the specified object with this collection for equality.
+
+hashCode() -- return to use the hashcode value for this collection.
+
+isEmpty() -- returns true if this collection contains no element.
+
+iterator() -- returns an iterator over the elements in collection.
+
+max() -- used to return the maximum value present in collection.
+
+parallelStream() -- method returns a parallel stream with this colllection as its source.
+
+remove(Object o) -- used to remove the given object from collection, if there is duplicate then this method remove first occurence.
+
+removeAll(Collection c) -- used to remove all the objects mentioned in given collection from collection.
+
+removeelf(Predicate filter) -- used to remove all the elements of this collection that satisfy given predicate.
+
+retainAll(Collection c) -- used to retain only elements in this collection that are contained in specified collection.
+
+size() -- used to return number of elements in the collection.
+
+spliterator() -- used to create spliterator over the elements in this collection.
+
+stream() -- used to return a sequential stream with this collection as its source.
+
+toArray() -- used to return array containing all the elements in this collection.
