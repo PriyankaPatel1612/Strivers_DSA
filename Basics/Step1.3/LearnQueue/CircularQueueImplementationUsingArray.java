@@ -1,3 +1,6 @@
+//Enqueue - add - O(1)
+//Dequeue - remove - O(1)
+//Peek - front - O(1)
 public class CircularQueueImplementationUsingArray {
     public static class Queue{
         static int[] arr;
@@ -78,6 +81,5 @@ public class CircularQueueImplementationUsingArray {
         while(!q.isEmpty()){
             System.out.println(q.remove());
         }
-        // System.out.println("front: "+q.peek());
     }
 }
