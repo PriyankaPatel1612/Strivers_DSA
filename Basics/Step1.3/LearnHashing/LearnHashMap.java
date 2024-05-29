@@ -76,6 +76,7 @@ public class LearnHashMap {
         System.out.println();
         //remove
         map.remove("China");  //if we remove key, the corresponding value of that key is also deleted
+        //System.out.println(map.remove("US"));
         System.out.println("removed china");
         System.out.println(map);
 

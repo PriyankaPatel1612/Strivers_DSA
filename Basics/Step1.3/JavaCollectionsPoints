@@ -45,3 +45,16 @@ spliterator() -- used to create spliterator over the elements in this collection
 stream() -- used to return a sequential stream with this collection as its source.
 
 toArray() -- used to return array containing all the elements in this collection.
+
+
+Complexity---
+
+Array 
+  add - O(1)
+  search - O(n)
+  remove - O(n)
+
+HashSet 
+    add - O(1)
+    search - O(1)
+    remove - O(1)
