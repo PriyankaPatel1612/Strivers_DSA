@@ -1,6 +1,6 @@
 //select min index , swap
 /*Time Complexity 
-  best, worst & avg case = O(n);
+  best, worst & avg case = O(n^2);
 */
 public class SelectionSort {
     static void sort(int[] arr){

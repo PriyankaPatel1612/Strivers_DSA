@@ -1,7 +1,8 @@
 //Pushes the maximum to the last by adjacent swapping
+//select heavy bubble(element) push it on last
 /*Time Complexity 
   best case = O(n)
-  worst & avg case = O(n2);
+  worst & avg case = O(n^2);
 */
 
 class BubbleSort{
