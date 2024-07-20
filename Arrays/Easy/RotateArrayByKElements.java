@@ -1,6 +1,37 @@
 public class RotateArrayByKElements {
 
-    //selftested
+    //optimized time-O(n),space-O(1)
+    static void rotateLeft2(int[] arr, int k){
+        int n = arr.length;
+        k = k % n;
+        //reverse first k elements
+        reverse(0, k-1, arr);
+        //reverse n-k elements
+        reverse(k,n-1, arr);
+        //reverse arr
+        reverse(0, n-1, arr);
+    }
+    static void rotateRight2(int[] arr, int k){
+        int n = arr.length;
+        k = k % n;
+        //reverse last k elements
+        reverse(n-k, n-1, arr);
+        //reverse n-k elements
+        reverse(0,n-k-1, arr);
+        //reverse arr
+        reverse(0, n-1, arr);
+    }
+    static void reverse(int sidx, int eidx, int[] arr){
+        while(sidx<eidx){
+            int temp = arr[sidx];
+            arr[sidx] = arr[eidx];
+            arr[eidx] = temp;
+            sidx++;
+            eidx--;
+        }
+    }
+
+    //selftested using recursion
     static void rotateLeft(int[] arr, int k){
         if(k==0){
             return;
@@ -28,8 +59,14 @@ public class RotateArrayByKElements {
     
     public static void main(String[] args) {
         int k=3;
-        int[] arr = {1,2,3,4,5,6,7};
-        rotateRight(arr, k);
+        int[] arr = {-1};
+
+        // rotateRight(arr, k);
+        // rotateLeft(arr, k);
+        rotateRight2(arr, k);
+        // rotateLeft2(arr, k);
+
+        //print arr
         for(int i=0 ; i<arr.length ; i++){
             System.out.print(arr[i] + " ");
         }
