@@ -5,10 +5,10 @@
 public class SelectionSort {
     static void sort(int[] arr){
         int n = arr.length;
-        for(int i=0 ; i<=n-2 ; i++){
+        for(int i=0 ; i<n-1 ; i++){
             int min=i;
             //find min
-            for(int j=i+1 ; j<=n-1 ; j++){
+            for(int j=i+1 ; j<n ; j++){
                 if(arr[j]<arr[min]){
                     min = j;
                 }
@@ -27,7 +27,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {13,46,24,52,20,9};
+        int[] arr = {13,46,56,52,20,9};
         
         System.out.println("Before selection sort:");
         for (int i = 0; i < arr.length; i++) {
