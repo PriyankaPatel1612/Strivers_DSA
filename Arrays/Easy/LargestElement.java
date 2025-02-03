@@ -1,4 +1,6 @@
 public class LargestElement {
+
+    //selftested optimized     T.C.-O(N) | S.C.- O(1)
     static int largest(int[] arr){
         int larg = Integer.MIN_VALUE;
         int n = arr.length;

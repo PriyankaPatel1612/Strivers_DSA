@@ -1,3 +1,4 @@
+
 public class LeftRotateByOne {
     //selftested
     static void rotateByOne(int[] arr){

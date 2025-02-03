@@ -8,6 +8,7 @@ public class FindSingleElement {
         //for 0 to n
         //for 0 to n
           //c=0
+          
           //i==j c++
         //if c==1 tc=arr[i] break
         //c=0
