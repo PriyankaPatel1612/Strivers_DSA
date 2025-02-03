@@ -36,8 +36,8 @@ public class ImplementHashMapUsingArrayOfLinkedList {
         }
 
         //search data index (di)
-        private int searchInLL(K key, int di){
-            LinkedList<Node> ll = buckets[di];
+        private int searchInLL(K key, int bi){
+            LinkedList<Node> ll = buckets[bi];
             for(int i=0 ; i<ll.size() ; i++){
                 if(ll.get(i).key==key){
                     return i; //di
