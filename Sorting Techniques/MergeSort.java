@@ -49,7 +49,7 @@ public class MergeSort {
 
     }
     public static void main(String[] args) {
-        int[] arr = {8,2,9,6,5,3,7,4};
+        int[] arr = {4,1,3,9,7};
         int n = arr.length;
         //divide
         divide(arr, 0, n-1);
